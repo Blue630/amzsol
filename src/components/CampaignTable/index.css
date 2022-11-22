@@ -1,0 +1,16 @@
+tr.parent-row {
+    background-color: #c5d0e14a !important;
+    border-top: 3px solid #a5bfe7 !important;
+}
+.campaign-table * {
+    font-size: 12px;
+}
+.campaign-table {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    width: 80% !important;
+}
+.parent-row input {
+    margin-left: auto;
+    width: 50%;
+}

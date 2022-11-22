@@ -1,0 +1,15 @@
+.navbar-collapse.collapse a.nav-link,
+.dropdown-toggle.nav-link {
+    color: white !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #5fa2db !important;
+    color: white !important;
+}
+.nav-item.dropdown {
+    display: flex;
+    align-items: center;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1320px !important;
+}

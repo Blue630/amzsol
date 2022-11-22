@@ -1,0 +1,26 @@
+.datepicker.date input {
+    width: 100px;
+    padding: 2px;
+}
+.react-datepicker-wrapper {
+    width: auto !important;
+    margin-left: 0px !important;
+}
+h3.table-title--bold {
+    font-weight: 400;
+    margin-top: 30px !important;
+}
+.thead-lined thead th {
+    border-right: 2px solid white;
+}
+.nav-link.active {
+    background-color: #596372 !important;
+    color: #fff !important;
+}
+button.nav-link {
+    border-radius: 0 !important;
+    color: #596372 !important;
+}
+button.nav-link:hover {
+    background-color: gainsboro;
+}

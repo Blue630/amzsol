@@ -1,0 +1,7 @@
+.transaction-view-table tbody tr td:nth-last-of-type(3),
+.transaction-view-table tbody tr td:nth-last-of-type(4) {
+    color: red;
+}
+.transaction-view-table tbody tr td:nth-last-of-type(1) {
+    color: #1a8fa1;
+}

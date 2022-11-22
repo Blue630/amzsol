@@ -1,0 +1,35 @@
+.datepicker-label-group {
+    display: flex;
+    align-items: center;
+}
+.react-datepicker-wrapper {
+    width: 200px !important;
+    margin-left: 10px !important;
+}
+.companyname {
+    font-weight: 400;
+}
+.thead-btn-group > button {
+    padding: 0px 1px;
+}
+.bg-calendar-thead0 {
+    background-color: #596372 !important;
+}
+.bg-calendar-thead1 {
+    background-color: #cfe2f3 !important;
+}
+.bg-calendar-thead2 {
+    background-color: #e4f0f7 !important;
+}
+.calendar-table thead th {
+    font-size: 14px;
+}
+.thead-btn-group button {
+    padding: 0 3px;
+}
+.redBtn {
+    background-color: #c38b79 !important;
+}
+.redBtn:hover {
+    color: rgb(24, 21, 21) !important;
+}
