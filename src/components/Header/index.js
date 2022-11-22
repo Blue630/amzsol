@@ -8,7 +8,7 @@ function Header(props) {
       {[false].map((expand, index) => (
         <Navbar key={index} collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="#home"><img className='logo-img' src="./../../logo.png" /></Navbar.Brand>
+            <Navbar.Brand href="#home"><img className='logo-img' src={process.env.PUBLIC_URL + '/logo.png'}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             {
               props.showOthers && 

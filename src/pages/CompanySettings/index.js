@@ -47,19 +47,19 @@ function CompanySettings() {
     }
     const tableData = [
         {sn: '001', image: "", parentOrChild: 'Parent/親', SKU: 'BH_Gr', ASIN: 'B0EOFU39234', title: 'Baseball hat'},
-        {sn: 'a', parentId:'001', image: "./../../images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'b', parentId:'001', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-large', ASIN: 'B0EOFU39234', title: 'Large baseball hat'},
+        {sn: 'a', parentId:'001', image: "/images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'b', parentId:'001', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-large', ASIN: 'B0EOFU39234', title: 'Large baseball hat'},
         {sn: '002', image: "", parentOrChild: 'Parent/親', SKU: 'SBALL', ASIN: 'B0OAI4HG943T', title: 'Soccer ball'},
-        {sn: 'a', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'b', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'c', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'd', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'e', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'f', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'g', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: 'e', parentId:'002', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
-        {sn: '003', image: "./../../images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Parent/親', SKU: 'Shoe', ASIN: 'B0OQGI467', title: 'Red shoe'},
-        {sn: '004', image: "./../../images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg", parentOrChild: 'Parent/親', SKU: 'Gloves', ASIN: 'B0ODYTR12', title: 'Red gloves'},
+        {sn: 'a', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'b', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'c', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'd', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'e', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'f', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'g', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: 'e', parentId:'002', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Child/子', SKU: 'BH_Gr-small', ASIN: 'B0EOFU39234', title: 'Small baseball hat'},
+        {sn: '003', image: "/images/61RxOLGKt-L._AC_SX679_.jpg", parentOrChild: 'Parent/親', SKU: 'Shoe', ASIN: 'B0OQGI467', title: 'Red shoe'},
+        {sn: '004', image: "/images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg", parentOrChild: 'Parent/親', SKU: 'Gloves', ASIN: 'B0ODYTR12', title: 'Red gloves'},
     ]
     return (
         <>
@@ -105,7 +105,7 @@ function CompanySettings() {
                                     </Button>}
                                 </td>
                                 {data.image ? <td className="d-flex flex-column">
-                                    <img style={{width: '50px'}} src={data.image}/>
+                                    <img style={{width: '50px'}} src={process.env.PUBLIC_URL + data.image} />
                                     <Button style={{padding: '4px', marginTop:'2px', fontSize: '12px', width: 'fit-content'}}>Update</Button>
                                 </td> : <td></td>}
                                 <td>{data.parentOrChild}</td>
@@ -125,7 +125,7 @@ function CompanySettings() {
                             <td>{index+1}</td>
                             <td>{data.sn}</td>
                             <td className="d-flex flex-column">
-                                <img style={{width: '50px'}} src={data.image}/>
+                                <img style={{width: '50px'}} src={process.env.PUBLIC_URL + data.image} />
                                 <Button style={{padding: '4px', marginTop:'2px', fontSize: '12px', width: 'fit-content'}}>Update</Button>
                             </td>
                             <td>{data.parentOrChild}</td>

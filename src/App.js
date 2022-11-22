@@ -40,6 +40,10 @@ function App() {
           path="/"
           component={Calendarview}
         />
+        <Route
+          path="*"
+          component={Calendarview}
+        />
       </Switch>
     </Router>
   );

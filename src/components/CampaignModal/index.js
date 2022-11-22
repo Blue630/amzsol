@@ -77,15 +77,15 @@ function CampaignModal(props) {
                 {(campaignType === 'SP Auto' || campaignType === 'SP Keyword' || campaignType === 'SP Category') && <div className="m-4 mt-1 campaigns spauto">
                     <h3 className="row mt-4 mb-4" >001_SP_AUTO_BSBL_HAT_baseball hat_low bid</h3>
                     <div className="row d-flex align-items-center mt-3 newadgrp">
-                        <img style={{width: '70px'}} src="./../../images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg"/>
+                        <img style={{width: '70px'}} src={process.env.PUBLIC_URL + '/images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg'}/>
                         <div className="adgrp ml-5 col">001a_BSBL_HAT_S_{addLetters}</div>
                     </div>
                     <div className="row d-flex align-items-center mt-3 newadgrp">
-                        <img style={{width: '70px'}} src="./../../images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg"/>
+                        <img style={{width: '70px'}} src={process.env.PUBLIC_URL + "/images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg"}/>
                         <div className="adgrp ml-5 col">001b_BSBL_HAT_M_{addLetters}</div>
                     </div>
                     <div className="row d-flex align-items-center mt-3 newadgrp">
-                        <img style={{width: '70px'}} src="./../../images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg"/>
+                        <img style={{width: '70px'}} src={process.env.PUBLIC_URL + "/images/51y3u4JhO8L.__AC_SX300_SY300_QL70_ML2_.jpg"}/>
                         <div className="adgrp ml-5 col">001c_BSBL_HAT_L_{addLetters}</div>
                     </div>
                 </div>}
