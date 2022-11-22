@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amzsol/static/css/main.9c2cdeb4.css",
+    "main.js": "/amzsol/static/js/main.ceba2ffb.js",
+    "static/js/787.fa036139.chunk.js": "/amzsol/static/js/787.fa036139.chunk.js",
+    "static/media/user.svg": "/amzsol/static/media/user.e86190388caaed6f7efc6b3c3472097f.svg",
+    "index.html": "/amzsol/index.html",
+    "main.9c2cdeb4.css.map": "/amzsol/static/css/main.9c2cdeb4.css.map",
+    "main.ceba2ffb.js.map": "/amzsol/static/js/main.ceba2ffb.js.map",
+    "787.fa036139.chunk.js.map": "/amzsol/static/js/787.fa036139.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c2cdeb4.css",
+    "static/js/main.ceba2ffb.js"
+  ]
+}
