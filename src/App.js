@@ -4,7 +4,6 @@ import {
   // Route,
   // Link,
 } from "react-router-dom";
-import history from './utils/history'
 import './App.css';
 
 import Calendarview from './pages/Calendarview'
@@ -19,7 +18,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 function App() {
   const router = createBrowserRouter([
-  {
+    {
+      path: "*",
+      element: <Calendarview />,
+    },
+    {
       path: "/",
       element: <Calendarview />,
     },
@@ -39,39 +42,18 @@ function App() {
       path: "/createKWcampaign",
       element: <CreateKWcampaign />,
     },
+    {
+      path: "/companySettings",
+      element: <CompanySettings />,
+    },
+    {
+      path: "/transactionwithtabs",
+      element: <Transactionwithtabs />,
+    },
   ]);
   
   return (
     <RouterProvider router={router} />
-    // <BrowserRouter history={history} >
-    //   <Routes>
-    //     <Route
-    //       path="/startpage"
-    //       component={StartPage}
-    //     />
-    //     <Route
-    //       path="/companysettings"
-    //       component={CompanySettings}
-    //     />
-    //     <Route
-    //       path="/Details"
-    //       component={Details}
-    //     />
-    //     <Route
-    //       path="/createASINcampaign"
-    //       component={CreateASINcampaign}
-    //     />
-    //     <Route
-    //       path="/createKWcampaign"
-    //       component={CreateKWcampaign}
-    //     />
-    //     <Route path="/transactionwithtabs" component={Transactionwithtabs} />
-    //     <Route
-    //       path="/"
-    //       component={Calendarview}
-    //     />
-    //   </Routes>
-    // </BrowserRouter>
   );
 }
 

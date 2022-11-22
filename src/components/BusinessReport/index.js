@@ -2,8 +2,8 @@ import React from "react";
 import Table from 'react-bootstrap/Table'
 function BusinessReport() {
   const tableData = [
-    ['B01M5GZGLR', 'B01MCZB42S', 46, '1.73%', 60, '1.82%', 4, 0, '98.33%', '¥13,880.00', '¥0', 4, 0],
-    ['B01M5GZGLR', 'B01MCZB42S', 46, '1.73%', 60, '1.82%', 4, 0, '98.33%', '¥13,880.00', '¥0', 4, 0],
+    ['B01M5GZGLR', 'B01MCZB42S', 46, '1.73%', 60, '1.82%', '98.33%', 4, 0, '8.7%', '¥13,880.00', '¥0', 4, 0],
+    ['B01M5GZGLR', 'B01MCZB42S', 27, '1.01%', 40, '1.22%', '97.50%', 5, 0, '18.52%', '¥13,880.00', '¥0', 4, 0],
   ]
   return (
     <>

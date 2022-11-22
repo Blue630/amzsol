@@ -24,6 +24,9 @@
 .calendar-table thead th {
     font-size: 14px;
 }
+.calendar-table a {
+    color: white !important;
+}
 .thead-btn-group button {
     padding: 0 3px;
 }
