@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from '../../components/Header'
 import DatePicker from "react-datepicker";
 import Button from 'react-bootstrap/Button';
@@ -6,9 +6,6 @@ import "react-datepicker/dist/react-datepicker.css";
 import Table from 'react-bootstrap/Table';
 import {Link} from 'react-router-dom';
 import './index.css'
-function getDaysInMonth(year, month) {
-    return new Date(year, month, 0).getDate();
-}
 function Calendarview() {
     const [startDate, setStartDate] = useState(new Date());
     const [viewStatus, setViewStatus] = useState('all');
@@ -28,8 +25,8 @@ function Calendarview() {
     [5,deletedBtn,deletedBtn,deletedBtn,deletedBtn,deletedBtn,deletedBtn,
         <Button className="view-negative-btn" type="submit"><Link to="/details">View Negative data</Link></Button>,
         <Button className="generate-report" type="submit"><Link to="/report">Generate Report</Link></Button>,
-        <Button type="submit"><Link to="createkwcampaign">Create</Link></Button>,
-        <Button type="submit"><Link to="createasincampaign">Create</Link></Button>],              
+        <Button type="submit"><Link to="/createkwcampaign">Create</Link></Button>,
+        <Button type="submit"><Link to="/createasincampaign">Create</Link></Button>],              
     [6,redBtn,redBtn,redBtn,redBtn,redBtn,redBtn,viewNegativeBtn, generateReport, createBtn, createBtn],              
     [7,redBtn,redBtn,redBtn,redBtn,redBtn,redBtn,viewNegativeBtn, generateReport, createBtn, createBtn],              
     [8,redBtn,redBtn,redBtn,redBtn,redBtn,redBtn,viewNegativeBtn, generateReport, createBtn, createBtn],              
