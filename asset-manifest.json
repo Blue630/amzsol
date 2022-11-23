@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/amzsol/static/css/main.dbcde397.css",
-    "main.js": "/amzsol/static/js/main.4340945a.js",
+    "main.css": "/amzsol/static/css/main.f44a3b8f.css",
+    "main.js": "/amzsol/static/js/main.6d44dc05.js",
     "static/js/787.fa036139.chunk.js": "/amzsol/static/js/787.fa036139.chunk.js",
     "static/media/user.svg": "/amzsol/static/media/user.e86190388caaed6f7efc6b3c3472097f.svg",
     "index.html": "/amzsol/index.html",
-    "main.dbcde397.css.map": "/amzsol/static/css/main.dbcde397.css.map",
-    "main.4340945a.js.map": "/amzsol/static/js/main.4340945a.js.map",
+    "main.f44a3b8f.css.map": "/amzsol/static/css/main.f44a3b8f.css.map",
+    "main.6d44dc05.js.map": "/amzsol/static/js/main.6d44dc05.js.map",
     "787.fa036139.chunk.js.map": "/amzsol/static/js/787.fa036139.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbcde397.css",
-    "static/js/main.4340945a.js"
+    "static/css/main.f44a3b8f.css",
+    "static/js/main.6d44dc05.js"
   ]
 }
