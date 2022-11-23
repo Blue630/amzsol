@@ -1,5 +1,6 @@
 import {Container, Navbar, NavDropdown, Nav} from 'react-bootstrap';
 import {ReactComponent as UserSVG} from './../../user.svg';
+import {Link} from 'react-router-dom'
 import './index.css';
 
 function Header(props) {
@@ -8,15 +9,26 @@ function Header(props) {
       {[false].map((expand, index) => (
         <Navbar key={index} collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="#home"><img className='logo-img' src={process.env.PUBLIC_URL + '/logo.png'}/></Navbar.Brand>
+            <Navbar.Brand>
+                <Link to="/">
+                  <img className='logo-img' src={process.env.PUBLIC_URL + '/logo.png'}/>
+                </Link>
+              </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            {
-              props.showOthers && 
+
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
-                    <Nav.Link href="campaign.html">Dashboard</Nav.Link>
-                    <Nav.Link href="rules.html">File Settings</Nav.Link>
-                  </Nav>
+                    <Nav.Link><Link to="/companysettings">Dashboard</Link></Nav.Link>
+                    <Nav.Link><Link to="/startpage">StartPage</Link></Nav.Link>
+                    <Nav.Link><Link to="/transactionwithtabs">Transactionwithtabs</Link></Nav.Link>
+                    {props.showOthers && <>
+                        <Nav.Link href="campaign.html">Dashboard</Nav.Link>
+                        <Nav.Link href="rules.html">File Settings</Nav.Link>
+                      </>
+                    }
+                  </Nav>            
+                {
+                  props.showOthers && 
                   <Nav>
                     <UserSVG />
                     <NavDropdown title="uchiyama@j-wire.info-San" id="collasible-nav-dropdown">
@@ -29,8 +41,8 @@ function Header(props) {
                         <NavDropdown.Item href="/users/sign_out">Logout</NavDropdown.Item>
                     </NavDropdown>
                   </Nav>
+                }
               </Navbar.Collapse>
-            }
             </Container>
         </Navbar>
       ))}

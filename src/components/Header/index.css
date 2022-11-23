@@ -1,5 +1,6 @@
 .navbar-collapse.collapse a.nav-link,
-.dropdown-toggle.nav-link {
+.dropdown-toggle.nav-link,
+.navbar-collapse.collapse a.nav-link a {
     color: white !important;
 }
 .dropdown-item:focus, .dropdown-item:hover {
