@@ -18,7 +18,7 @@ function Header(props) {
 
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
-                    <Nav.Link><Link to="/companysettings">Dashboard</Link></Nav.Link>
+                    <Nav.Link><Link to="/companysettings">CompanySettings</Link></Nav.Link>
                     <Nav.Link><Link to="/startpage">StartPage</Link></Nav.Link>
                     <Nav.Link><Link to="/transactionwithtabs">Transactionwithtabs</Link></Nav.Link>
                     {props.showOthers && <>
